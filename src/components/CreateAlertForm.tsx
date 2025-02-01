@@ -177,8 +177,8 @@ export const CreateAlertForm = () => {
     <Form {...form}>
       <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6">
         <div className="bg-white p-8 rounded-xl shadow-sm border border-gray-100">
-          <h3 className="text-2xl font-bold text-[#0EA5E9] mb-6 flex items-center">
-            <AlertCircle className="mr-3 h-6 w-6 text-[#0EA5E9]" />
+          <h3 className="text-2xl font-bold text-[#372af5] mb-6 flex items-center">
+            <AlertCircle className="mr-3 h-6 w-6 text-[#372af5]" />
             Disaster Information
           </h3>
           
@@ -224,7 +224,7 @@ export const CreateAlertForm = () => {
 
         <div className="bg-white p-8 rounded-xl shadow-sm border border-gray-100">
           <h3 className="text-2xl font-bold text-[#0EA5E9] mb-6 flex items-center">
-            <MapPin className="mr-3 h-6 w-6 text-[#0EA5E9]" />
+            <MapPin className="mr-3 h-6 w-6 text-[#372af5]" />
             Location Details
           </h3>
           
@@ -342,7 +342,7 @@ export const CreateAlertForm = () => {
               <Button
                 type="button"
                 onClick={addReliefItem}
-                className="bg-[#0EA5E9] hover:bg-[#0EA5E9]/90 text-white flex items-center gap-2"
+                className="bg-[#372af5] hover:bg-[#372af5]/90 text-white flex items-center gap-2"
               >
                 Add Item
               </Button>
@@ -388,8 +388,8 @@ export const CreateAlertForm = () => {
         </div>
 
         <div className="bg-white p-8 rounded-xl shadow-sm border border-gray-100">
-          <h3 className="text-2xl font-bold text-[#0EA5E9] mb-6 flex items-center">
-            <Upload className="mr-3 h-6 w-6 text-[#0EA5E9]" />
+          <h3 className="text-2xl font-bold text-[#372af5] mb-6 flex items-center">
+            <Upload className="mr-3 h-6 w-6 text-[#372af5]" />
             Additional Information
           </h3>
           
@@ -434,8 +434,8 @@ export const CreateAlertForm = () => {
         </div>
 
         <div className="bg-white p-8 rounded-xl shadow-sm border border-gray-100">
-          <h3 className="text-2xl font-bold text-[#0EA5E9] mb-6 flex items-center">
-            <Image className="mr-3 h-6 w-6 text-[#0EA5E9]" />
+          <h3 className="text-2xl font-bold text-[#372af5] mb-6 flex items-center">
+            <Image className="mr-3 h-6 w-6 text-[#372af5]" />
             Image Upload
           </h3>
           
@@ -446,7 +446,7 @@ export const CreateAlertForm = () => {
                 className="flex items-center justify-center w-full h-32 px-4 transition bg-white border-2 border-gray-200 border-dashed rounded-lg appearance-none cursor-pointer hover:border-[#0EA5E9] focus:outline-none"
               >
                 <div className="flex flex-col items-center space-y-2">
-                  <Upload className="w-8 h-8 text-[#0EA5E9]" />
+                  <Upload className="w-8 h-8 text-[#372af5]" />
                   <span className="text-sm text-gray-600">
                     Click to upload an image
                   </span>
@@ -460,8 +460,8 @@ export const CreateAlertForm = () => {
                 />
               </label>
               {selectedImage && (
-                <div className="flex items-center justify-between p-4 bg-[#0EA5E9]/10 rounded-lg">
-                  <span className="text-sm text-[#0EA5E9] font-medium">
+                <div className="flex items-center justify-between p-4 bg-[#372af5]/10 rounded-lg">
+                  <span className="text-sm text-[#372af5] font-medium">
                     ✓ {selectedImage.name}
                   </span>
                   <Button
@@ -483,7 +483,7 @@ export const CreateAlertForm = () => {
 
         <Button
           type="submit"
-          className="w-full py-6 text-lg font-semibold bg-[#0EA5E9] hover:bg-[#0EA5E9]/90 text-white
+          className="w-full py-6 text-lg font-semibold bg-[#372af5] hover:bg-[#372af5]/90 text-white
                      focus:ring-[#0EA5E9]/50 transition-all duration-200"
           disabled={isSubmitting}
         >
