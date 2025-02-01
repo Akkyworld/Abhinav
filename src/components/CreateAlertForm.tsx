@@ -212,7 +212,7 @@ export const CreateAlertForm = () => {
                 <FormControl>
                   <Textarea
                     placeholder="Describe the disaster situation in detail"
-                    className="min-h-[120px] text-base resize-y"
+                    className="min-h-[120px] text-base text-white resize-y"
                     {...field}
                   />
                 </FormControl>
