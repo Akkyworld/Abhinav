@@ -223,7 +223,7 @@ export const CreateAlertForm = () => {
         </div>
 
         <div className="bg-white p-8 rounded-xl shadow-sm border border-gray-100">
-          <h3 className="text-2xl font-bold text-[#0EA5E9] mb-6 flex items-center">
+          <h3 className="text-2xl font-bold text-[#372af5] mb-6 flex items-center">
             <MapPin className="mr-3 h-6 w-6 text-[#372af5]" />
             Location Details
           </h3>
